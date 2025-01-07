@@ -42,7 +42,7 @@ def instance_generator(filename, count):
     
 
 if __name__ == "__main__":
-    l = [200, 500, 1000, 2000, 5000, 10000, 20000, 50000, 100000, 200000, 500000]
+    l = [200, 500, 1000, 2000, 5000, 10000, 20000, 30000, 40000, 50000]
     for i in l:
         for j in range(10):
             instance_generator(f"instance_{i}_{j}.in", i)
