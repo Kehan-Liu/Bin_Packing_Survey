@@ -19,3 +19,4 @@ clean:
 	@rm -f ./data/*.in
 	@rm -f ./eval/algos
 	@rm -f ./eval/results
+	@rm -f ./eval/*.png
